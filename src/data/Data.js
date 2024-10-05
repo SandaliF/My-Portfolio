@@ -50,10 +50,13 @@ export const experience = [
 
 import image1 from '../../src/assets/python.png'
 import image2 from '../../src/assets/react.png'
-import image3 from '../../src/assets/node.png'
-import image4 from '../../src/assets/figma.png'
-import image5 from '../../src/assets/ps.png'
-import image6 from '../../src/assets/sketch.png'
+import image3 from '../../src/assets/java.png'
+import image4 from '../../src/assets/javascript.png'
+import image5 from '../../src/assets/c++.png'
+import image6 from '../../src/assets/html.png'
+import image7 from '../../src/assets/css.png'
+import image8 from '../../src/assets/mysql.png'
+
 export const tools = [
     {
         id: 1,
@@ -78,6 +81,14 @@ export const tools = [
     {
         id: 6,
         img: image6,
+    },
+    {
+        id: 7,
+        img: image7,
+    },
+    {
+        id: 8,
+        img: image8,
     },
 ];
 
