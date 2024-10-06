@@ -6,12 +6,18 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 import {navLinks} from '../../data/Data'
 
-import {usezstate} from 'react'
+import {useState} from 'react'
 
 export default function Nav() {
+
+  const [showmenu, setShowmenu] = useState(false);
+  let MenuHandler=()=>{
+    setShowmenu(!showmenu);
+  }
+
   return (
     <nav>
-      <ul className='navLinks'>
+      <ul className={`${showmenu ? 'navLinks navLinks-show' : 'navLinks'}`}>
         {
           navLinks.map(({id, name, path, icon}) => {
             return(
@@ -25,7 +31,8 @@ export default function Nav() {
           })
         }
       </ul>
-      <div className="nav-toggle nav-close">
+      <div className={`${showmenu ? "nav-toggle nav-close" : "nav-toggle"}`}onClick ={MenuHandler}>
+      {/* <div className='nav-toggle nav-close'> */}
         <span></span>
         <span></span>
         <span></span>        
