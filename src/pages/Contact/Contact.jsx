@@ -1,31 +1,62 @@
-import './Contact.css'
+// import React from 'react';
+// import './Contact.css'; 
+// import HeadingText from '../../components/HeadingText/HeadingText'
 
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faPaperPlane} from '@fortawesome/free-solid-svg-icons'
+// export default function ContactMe() {
+//     return (
+//         <section className="contact-me">
+//             <HeadingText title={'Contact'} titlePrimary={'Me'}/>
+//             <p>If you have any questions or would like to connect, feel free to reach out!</p>
+//             <div className="contact-info">
+//                 <div className="contact-item">
+//                     <h3>Email</h3>
+//                     <a href="mailto:sandalif.21@cse.mrt.ac.lk" className="contact-link">sandalif.21@cse.mrt.ac.lk</a>
+//                 </div>
+//                 <div className="contact-item">
+//                     <h3>LinkedIn</h3>
+//                     <a href="https://www.linkedin.com/in/sandali-malshika-fernando/" target="_blank" rel="noopener noreferrer" className="contact-link">
+//                         LinkedIn Profile
+//                     </a>
+//                 </div>
+//                 <div className="contact-item">
+//                     <h3>GitHub</h3>
+//                     <a href="https://github.com/SandaliF" target="_blank" rel="noopener noreferrer" className="contact-link">
+//                         GitHub Profile
+//                     </a>
+//                 </div>
+//             </div>
+//         </section>
+//     );
+// }
 
-import HeadingText from '../../components/HeadingText/HeadingText'
 
+import React from 'react';
+import './Contact.css'; 
+import HeadingText from '../../components/HeadingText/HeadingText';
 
-export default function Contact() {
-  return (
-    <>
-    <section>
-      <HeadingText title={'Contact'} titlePrimary={'Me'}/>
-      <div className="container contact-container">
-        <form action="#">
-          <input type="text" required placeholder='Your Name' />
-          <input type="email" required placeholder='Your Email' />
-          <input type="number" required placeholder='Your Number' />
-          <textarea name="message" id="message" rows="6" placeholder='Your Message'></textarea>
-          <button type='submit' className='btn'>
-            Send
-            <span><FontAwesomeIcon icon={faPaperPlane}/></span>
-          </button>
-        </form>
-      </div>
-    </section>
-    
-    </>
-  )
+export default function ContactMe() {
+    return (
+        <section className="contact-me">
+            <HeadingText title={'Contact'} titlePrimary={'Me'} />
+            <p>If you have any questions or would like to connect, feel free to reach out!</p>
+            <div className="contact-info">
+                <div className="contact-item">
+                    <h3>Email</h3>
+                    <a href="mailto:sandalif.21@cse.mrt.ac.lk" className="contact-link">sandalif.21@cse.mrt.ac.lk</a>
+                </div>
+                <div className="contact-item">
+                    <h3>LinkedIn</h3>
+                    <a href="https://www.linkedin.com/in/sandali-malshika-fernando/" target="_blank" rel="noopener noreferrer" className="contact-link">
+                        LinkedIn Profile
+                    </a>
+                </div>
+                <div className="contact-item">
+                    <h3>GitHub</h3>
+                    <a href="https://github.com/SandaliF" target="_blank" rel="noopener noreferrer" className="contact-link">
+                        GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </section>
+    );
 }
-

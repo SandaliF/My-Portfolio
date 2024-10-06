@@ -13,11 +13,11 @@ export default function Home() {
 
           <div className="header-right">
             <h1>
-              <span style={{ color: '#a2012d' }}>Hi, I'm Sandali Fernando </span> <br/>
-              Full Stack Developer
+              <span style={{ color: '#62a4e6' }}>Hi, I'm Sandali Fernando </span> <br/>
+              Trainee Full Stack Developer
             </h1>
-            <p>
-                I  am a young, dynamic, and highly adaptable third year undergraduate student, seeking a challenging opportunity to utilize the best and enhance my skills. I possess excellent communication skills and I am comfortable working in a team-oriented environment. I am a quick learner and committed to achieving success in all my endeavors.
+            <p >
+                I am a young, dynamic, and highly adaptable third year undergraduate student of Department of Computer Science and Engineering of University of Moratuwa, seeking a challenging opportunity to utilize the best and enhance my skills. I possess excellent communication skills and I am comfortable working in a team-oriented environment. I am a quick learner and committed to achieving success in all my endeavors.
             </p>
             <Link className='btn' to={'/about'}> About Me
                 <span><FontAwesomeIcon icon={faArrowRight} /></span> 

@@ -1,26 +1,26 @@
-import './Portfolio.css'
+import './Projects.css'
 
 import Card from '../../UI/Card'
 import HeadingText from '../../components/HeadingText/HeadingText'
-import Testimonials from '../../components/Testimonials/Testimonials'
+//import Testimonials from '../../components/Testimonials/Testimonials'
 
-import { portfolio } from '../../data/Data'
+import { projects } from '../../data/Data'
 
-export default function Portfolio() {
+export default function Projects() {
   return (
     <>
-    <section className=''portfolio>
+    <section className='projects'>
       <HeadingText title={'Recent'} titlePrimary={'Work'}/>
 
-      <div className="container portfolio-container">
+      <div className="container projects-container">
         {
-        portfolio.map(({id,img,name,des,github})=>{
+        projects.map(({id,img,name,des})=>{
           return(
             <Card className={'project'} key={id}>
               <img src={img} alt="" />
               <h3>{name}</h3>
               <p>{des}</p>
-              <a href={github}>GitHub</a>
+              {/* <a href={github}>GitHub</a> */}
             </Card>
           )
         })
@@ -29,7 +29,7 @@ export default function Portfolio() {
       </div>
        
     </section>
-    <Testimonials/>
+    {/* <Testimonials/> */}
     </>
   )
 }

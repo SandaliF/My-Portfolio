@@ -15,9 +15,9 @@ export const navLinks = [
     }, 
     {
         id: 3,
-        name: 'Portfolio',
+        name: 'Projects',
         icon : faFolder,
-        path: '/portfolio'
+        path: '/projects'
     },
     {
         id: 4,
@@ -54,8 +54,8 @@ import image3 from '../../src/assets/java.png'
 import image4 from '../../src/assets/javascript.png'
 import image5 from '../../src/assets/c++.png'
 import image6 from '../../src/assets/html.png'
-import image7 from '../../src/assets/css.png'
-import image8 from '../../src/assets/mysql.png'
+import image7 from '../../src/assets/mysql.png'
+//import image8 from '../../src/assets/css.png'
 
 export const tools = [
     {
@@ -86,63 +86,81 @@ export const tools = [
         id: 7,
         img: image7,
     },
-    {
-        id: 8,
-        img: image8,
-    },
+    // {
+    //     id: 8,
+    //     img: image8,
+    // },
 ];
 
 
 import {faCodeBranch, faCode,faCodeCompare,} from '@fortawesome/free-solid-svg-icons'
-export const services = [
+export const education = [
     {
         id: 1,
-        icon: faCode,
-        name:'Web Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
+        // icon: faCode,
+        name:'University of Moratuwa, Sri Lanka (2022 - Present)',
+        des:'BSc Engineering (Hons) | Computer Science and  Engineering (Undergraduate)'
     },
     {
         id: 2,
-        icon: faCodeBranch,
-        name:'Apps Development',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
+        // icon: faCodeBranch,
+        name:'De Mazenod College - Kandana (2017-2020)',
+        des:'G.C.E. A/L Examination 2020 - Physical Science Stream - 3As'
     },
     {
         id: 3,
-        icon: faCodeCompare,
-        name:'Python Customize',
-        des:'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem architecto sunt sint quis ipsam odio neque.'
+        // icon: faCodeCompare,
+        name:'St. Joseph’s College - Colombo 10, Negombo Branch (2006 - 2016)',
+        des:'G.C.E. O/L Examination 2016 - 9A’s including Mathematics: A | English: A | IT: A'
     },
+    
 ];
 
 
 
 
-import protfoliImg1 from '../../src/assets/p1.jpg'
-import protfoliImg2 from '../../src/assets/p2.jpg'
-import protfoliImg3 from '../../src/assets/p3.jpg'
-export const portfolio = [
+import protfoliImg1 from '../../src/assets/project1.jpeg'
+import protfoliImg2 from '../../src/assets/project2.jpeg'
+import protfoliImg3 from '../../src/assets/project3.jpeg'
+import protfoliImg4 from '../../src/assets/project4.jpg'
+import protfoliImg5 from '../../src/assets/project5.jpeg'
+
+export const projects = [
     {
         id: 1,
         img: protfoliImg1,
-        name: 'Project-1',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        name: 'Hotel and Restaurant Management System',
+        des: 'This is the third year Software Engineering Project to manage the functions of a Hotel and Restaurant Management System for a set of hotels with separate interfaces for customers and administrators. Customers can browse hotels and select rooms based on their preferences, while admins can manage hotel and room listings (add, edit, remove). ',
+        // github:'#',
     },
     {
         id: 1,
         img: protfoliImg2,
-        name: 'Project-2',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        name: 'Human Resource Management System',
+        des: 'This is the second year DBMS project designed as a software solution to specifically satisfy the needs of a HR Department of a multinational company.',
+        // github:'#',
     },
     {
         id: 1,
         img: protfoliImg3,
-        name: 'Project-3',
-        des: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione officiis iusto nulla exercitationem',
-        github:'#',
+        name: 'RPAL Interpreter',
+        des: 'An interpreter for the functional programming language. RPAL consists of a lexical analyzer, parser and a CSE machine. The interpreter can execute a given RPAL program by constructing the abstract syntax tree, standardizing the AST and evaluating the program to get the output.',
+        // github:'#',
     },
+    {
+        id: 1,
+        img: protfoliImg4,
+        name: 'Quiz App',
+        des: "A personal mini project created for allowing users to take interactive quizzes. The app features multiple-choice questions, scoring functionality, and a user-friendly interface, enhancing the learning experience through engaging content."
+
+    },
+    {
+        id: 1,
+        img: protfoliImg5,
+        name: 'Nano Processor Project',
+        des: 'This is the Semester 2 Computer organization and digital design project to design a 4-bit nano processor for doing addition, subtraction, and negation. '
+    }
+    
 ];
 
 

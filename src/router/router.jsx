@@ -2,7 +2,7 @@ import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 import Home from '../pages/Home/Home'
 import About from '../pages/About/About'
-import Portfolio from '../pages/Portfolio/Portfolio'
+import Projects from '../pages/Projects/Projects'
 import Contact from '../pages/Contact/Contact'
 
 import Nav from '../components/Nav/Nav'
@@ -16,7 +16,7 @@ export default function router() {
     <Routes>
         <Route path='/' element={<Home/>} />
         <Route path='/about' element={<About/>} />
-        <Route path='/portfolio' element={<Portfolio/>} />
+        <Route path='/projects' element={<Projects/>} />
         <Route path='/contact' element={<Contact/>} />
 
     </Routes>

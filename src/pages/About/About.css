@@ -3,8 +3,11 @@
 }
 .about-container{
     display: grid;
-    grid-template-columns: 52% auto;
+    grid-template-columns: 100% auto;
     gap: 3rem;
+}
+.about-container p{
+    text-align: justify;
 }
 .about-left p{
     margin-top: 1rem;
@@ -23,10 +26,12 @@
     .about-right{
         grid-row: 1;
     }
+    
 }
 
-@media (max-width:1024px){
+@media (max-width:600px){
     .about-right{
         gap: 1rem;
     }
+    
 }

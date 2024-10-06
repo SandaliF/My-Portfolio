@@ -1,4 +1,4 @@
-.contact-container{
+/* .contact-container{
     width:50%;
 }
 .contact-container input,textarea{
@@ -28,4 +28,105 @@
     .contact-container{
         width: 90%;
     }
+} */
+
+/* .contact-me {
+    padding: 2rem 1rem;
+    background-color: transparent; 
+    text-align: center; 
+    color: #0b0236; 
+}
+
+
+.light-theme .contact-me {
+    color: #333; 
+}
+
+
+.dark-theme .contact-me {
+    color: #f9f9f9; 
+}
+
+.contact-me h2 {
+    color: #0b0236; 
+    margin-bottom: 1rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.contact-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #0b0236; 
+    border-radius: 5px; 
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.contact-item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); 
+}
+
+.contact-item h3 {
+    color: #0b0236; 
+    margin-bottom: 0.
+} */
+
+/* Contact.css */
+
+/* Base styles for the contact section */
+.contact-me {
+    padding: 2rem 1rem;
+    border-radius: 8px; 
+    text-align: center;
+}
+
+/* Light Theme Styles */
+.light-theme .contact-me {
+    color: #333; /* Dark text color for light theme */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+/* Dark Theme Styles */
+.dark-theme .contact-me {
+    color: #f9f9f9; /* Light text color for dark theme */
+    background-color: hsl(231, 39%, 10%); /* Dark background color */
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.contact-item {
+    margin: 1rem 0;
+    padding: 1rem;
+    border: 1px solid #0b0236; 
+    border-radius: 5px;
+    width: 90%;
+    max-width: 400px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.contact-item h3 {
+    margin-bottom: 0.5rem;
+}
+
+.contact-link {
+    color: inherit; /* Inherit color from parent (dark/light theme) */
+    text-decoration: none;
 }
