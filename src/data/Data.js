@@ -43,7 +43,7 @@ export const experience = [
     {
         id: 3,
         no: '3+',
-        title:'Happy Clintes'
+        title:'Happy Clients'
     },
 ];
 
