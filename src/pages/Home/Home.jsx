@@ -14,7 +14,7 @@ export default function Home() {
           <div className="header-right">
             <h1>
               <span style={{ color: '#62a4e6' }}>Hi, I'm Sandali Fernando </span> <br/>
-              Trainee Full Stack Developer
+              Computer Science and Engineering Undergraduate
             </h1>
             <p >
                 I am a young, dynamic, and highly adaptable third year undergraduate student of Department of Computer Science and Engineering of University of Moratuwa, seeking a challenging opportunity to utilize the best and enhance my skills. I possess excellent communication skills and I am comfortable working in a team-oriented environment. I am a quick learner and committed to achieving success in all my endeavors.
