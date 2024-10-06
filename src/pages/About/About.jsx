@@ -8,6 +8,8 @@ import {experience} from '../../data/Data'
 
 import HeadingText from '../../components/HeadingText/HeadingText'
 import Card from '../../UI/Card'
+import Tools from '../../components/Tools/Tools'
+import Services from '../../components/Services/Services'
 
 export default function About() {
   return (
@@ -42,6 +44,8 @@ export default function About() {
       </div>
     </div>
     </section>
+    <Tools/>
+    <Services/>
     </>
   )
 }
